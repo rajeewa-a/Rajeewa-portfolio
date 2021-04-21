@@ -48,7 +48,7 @@ main.content
 {
     width: 100%;
     height: 60vh;
-    background-color: #98C1D9;
+    background-color: #E0FBFC;
     display: grid;
     place-items: center;
 }
@@ -67,7 +67,7 @@ main.myprojects
     place-items: center;
     width: 100%;
     height: 50vh;
-    background-color: #EE6C4D;
+    background-color: white;
 }
 main.projectcards
 {
@@ -143,14 +143,14 @@ main#carousel {
   
   div.item:nth-of-type(1) {
     --offset: 1;
-    background-color: rgb(255, 248, 248);
+    background-color: #EE6C4D;
     border: #1B2328 solid 2px;
     display: grid;
     grid-template-rows: 4fr 4fr 1fr;
   }
   div.item:nth-of-type(2) {
     --offset: 2;
-    background-color: #ff70a6;
+    background-color: #EE6C4D;
     background-size: cover;
     border: #1B2328 solid 2px;
     color: white;
@@ -162,19 +162,19 @@ main#carousel {
   }
   div.item:nth-of-type(3) {
     --offset: 3;
-    background-color: #ff9770;
+    background-color:  #EE6C4D;
     border: #1B2328 solid 2px;
     background-image:linear-gradient(0deg,#000000b1 100%,#ffffff72 100%),url('../web1.png');
   }
   div.item:nth-of-type(4) {
     --offset: 4;
-    background-color: #ffd670;
+    background-color:  #EE6C4D;
     border: #1B2328 solid 2px;
     background-image: linear-gradient(0deg,#000000b1 100%,#ffffff72 100%),url('../web1.png');
   }
   div.item:nth-of-type(5) {
     --offset: 5;
-    background-color: #e9ff70;
+    background-color:  #EE6C4D;
     border: #1B2328 solid 2px;
     background-image:linear-gradient(0deg,#000000b1 100%,#ffffff72 100%),url('../web1.png');
   }
@@ -342,10 +342,10 @@ footer>div.copyright
 
 .flip-card:hover .flip-card-inner {
   
-  width: 350px;
+  width: 300px;
   height: 330px;
   transform: rotateY(180deg);
-  transition: 3s;
+  transition: 0.5s;
 
 }
 
